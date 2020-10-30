@@ -1,0 +1,18 @@
+Explanation:
+Dimensionality reduction is the process in which higher dimensional features and inputs are reduced to lower dimensions (usually 2 or 3 dimensions). 
+
+This is done for various reasons: 
+•	To visualize multi-dimensional dataset or models trained on many features. Since humans cannot 		interpret multi-dimensional space.
+•	To reduce the number of inputs/ features of a dataset to be fed into a machine learning model , to 		get better performance in prediction and quicker training time.
+
+
+Example for better explanation:
+Let us say we are working on a simple model that has only 2 features , then we will be easily be able to plot it in a 2d graph consisting of (x,y) coordinate system. This can be understood by humans and the trends can be easily seen. 
+When it comes to machine learning we mostly have more than 2 features, for example in a house price dataset we might have inputs features such as number of bedrooms, number of bathrooms, square feet of the house, year built etc. this cannot be plotted in a 2d or 3d diagram. In this case we have to reduce the dimensions. So we can add number of all rooms and compare the square feet. Hence the chart can describe clear correlation between number of rooms and square feet. This solves the visualization problem. And further number of bedrooms , number of bathrooms etc have been added up and made up into a single feature number of rooms , hence reducing feature can save training time.
+ 
+Dimensionality reduction can be done by various methods:
+•	Feature Extraction
+•	Feature Selection
+•	Feature clustering into single group
+•	Principal Component Analysis (PCA)
+•	Machine Learning – Dimensionality Reduction under Unsupervised Learning 
